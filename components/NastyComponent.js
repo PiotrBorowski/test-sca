@@ -1,6 +1,8 @@
 import { useEffect } from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
 
+export const cloudflareKey = "1234-52123-123123-asdasd";
+
 export const NastyComponent = ({ initialValue }) => {
   const [state, setState] = useState(0);
 
